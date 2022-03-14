@@ -16,13 +16,95 @@
    =============================== */
 
 /* General */
+@font-face { 
+   font-family: 'Sister'; 
+   src: url('../fonts/Sister/LoveYaLikeASister-Regular.ttf');
+   font-style: normal;
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'OSans';
+   font-style: normal;
+   font-weight: 400;
+   src: url("../fonts/OSans/static/OpenSans/OpenSans-Light.ttf")
+   
+ }
+body{
+   background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
+   color:#4b2707;
+   font-size: 14px;
+   font-family: OSans;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+}
 
-
+.container{
+   width: 930px;
+   margin: 0 auto;
+   padding: 30px 24px;
+}
 
 /* Typography */
 
+h1, h2{
+   color: #d17f38;
+   font-size: 40px;
+   font-weight: normal;
+   line-height: 44px;
+   margin: 0;
+   font-family: Sister;
+}
 
+h1{
+   text-align: center;
+   padding: 0 0 20px;
+   background:url('../images/header-divider.png') bottom center no-repeat;
+}
 
+h1 em{
+   font-style: normal;
+   color: #4b2707;
+}
+
+h2{
+   font-size: 34px;
+}
+
+h3{
+   margin: 0;
+}
+
+p.lead{
+   font-size: 30px;
+   font-weight: 300;
+   text-align: center;
+   margin: 10px 0;
+}
+
+p {
+   margin: 0;
+}
+
+a:link {
+   color:#d17f38;
+}
+
+a:visited{
+   color: #d17f38;
+}
+
+a:hover {
+   color:#4b2707;
+}
+
+hr {
+   border: none;
+   height: 33px;
+   width: 333px;
+   margin: 30px auto;
+   background: url('../images/divider.png') center center no-repeat;
+
+}
 /* Header */
 
 
