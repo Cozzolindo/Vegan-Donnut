@@ -168,7 +168,7 @@ header nav ul li#logo a:hover{
 }
 
 /* The Whole Story */
-#whole-story{
+#story-explained{
    width: 530px;
    margin-right: 24px;
    float: left;
@@ -177,7 +177,7 @@ header nav ul li#logo a:hover{
 
 #best-donut {
    background: url('../images/award.png') left center no-repeat;
-   padding: 30px 0 30px 230px;
+   padding: 30px 0 30px 130px;
    float: left;
    width: 240px;
 }
@@ -185,11 +185,71 @@ header nav ul li#logo a:hover{
 
 /* News & Events */
 
+#articles{
+   width: 370px;
+   float: left;
+   margin-right:24px;
+}
 
+#feature-image{
+   width: 530px;
+   float: left;
+}
 
+#news-events article{
+   margin: 20px 0;
+   padding-left: 55px; 
+}
+
+#news-events article.news{
+   background: url('../images/icon-news.png') top left no-repeat;
+}
+
+#news-events article.events{
+   background: url('../images/icon-calendar.png') top left no-repeat;
+}
+
+#news-events time header{
+   color:#d17f38;
+   font-size: 12px;
+
+}
+
+#news-events section.except{
+   margin: 10px 0;
+}
+
+#news-events footer{
+   font-size: 12px;
+}
 /* Footer */
 
+footer.main{
+   color: #f2f3ee;
+   padding: 30px 0;
+   background: #4b2707 url('../images/bg-tile-brown.gif');
+}
 
+footer.main a:hover{
+   color: #f2f3ee;
+}
+
+#uncopyright, #credits {
+   width: 240px;
+   float: left;
+   padding: 10px 0 10px 50px;
+}
+
+#uncopyright{
+   background: url('../images/icon-recycle.png') center left no-repeat;
+
+}
+
+#credits{
+   background: url('../images/icon-apple.png') center left no-repeat;
+   float: right;
+   margin-top: 5px;
+}
 
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
 
